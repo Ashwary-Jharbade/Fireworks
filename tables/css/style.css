@@ -1,0 +1,24 @@
+body{
+    font-family: Roboto;
+}
+
+.heading h1{
+    color: silver;
+}
+
+.table-styler{
+    width: 100%; 
+    border-spacing: 0;
+}
+
+table, th, td {
+    border: 1px solid silver;
+}
+
+th , td{
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: rgba(194, 194, 194, 0.411);
+}
