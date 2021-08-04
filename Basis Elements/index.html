@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Basic Elements</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- external css --></meta>
+        <link href="css/style.css" rel="stylesheet">
+        <!-- internal css -->
+        <style>
+            h3 {
+                background-color:coral;
+            }
+        </style>
+    </head>
+    <body>
+        Basic tags practice
+        <p>Basic &lt; p &gt; tag without attribute</p>
+        <p align="center" title="Just a p tag with atttibutes"> &lt; p &gt; tag with align and title attribute</p>
+        <p>Image with an src attribute</p>
+        <img src="https://images.unsplash.com/photo-1628026553106-7f5dedc5260c?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="space traveller">
+        
+        <a href="#">Anchor tag with href attribute</a>
+
+        <p>Image with height and width  attribute</p>
+        <img height="150" width="300" src="https://images.unsplash.com/photo-1628026553106-7f5dedc5260c?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="space traveller"></img>
+
+        <p>Image with style attribute</p>
+        <img style="width:300px;height:150px;" src="https://images.unsplash.com/photo-1628026553106-7f5dedc5260c?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="space traveller"></img>
+
+        <p id="html_headings">HTML headings</p>
+        <h1>Check out heading h1 </h1>
+        <h2>Check out heading h2</h2>
+        <h3>Check out heading h3</h3>
+        <h4>Check out hrading h4</h4>
+        <h5>Check out heading h5</h5>
+        <h6>Check out heading h6</h6>
+
+        <p>Custom Styled heading </p>
+        <h1 style="font-size:60px;">This is a styled heading tag</h1>
+        
+        <p>HTML pre tag</p>
+        <pre>
+            Show the content
+            In the middle let's check out hr element.
+            It draws a horizontal line accross the document
+            <hr>
+            as its is, does not ignore spaces
+            like other html elemets do
+        </pre>
+
+
+        <h3>Lets dive into html styles</h3>
+
+        <p style="color:blue;font-weight:bolder;">Hey, isn't I am red in color</p>
+        <p style="color:red;font-size:30px;">No your are blue in color</p>
+        <p style="color:silver;filter:opacity(0.9);">Hey, but both of you are silver in color</p>
+
+        <h1 style="font-family:verdana;">This is a heading with font family verdana</h1>
+        <p style="font-family:courier;">This is a paragraph with font family courier</p>
+
+        <h1 style="text-align:center;">Centered Heading</h1>
+        <p style="text-align:center;">Centered paragraph.</p>
+
+        <h1>Lets checkout some of the text formatting elements on HTML</h1>
+
+        <code>
+            <pre>
+                <b> b tag represents bold tag </b>
+                <strong> strong tag is a important tag   </strong>
+                <i> i tag is used to itallisize content </i>
+                <small> small tag is used to display content in smaller form </small>
+                sub tag can be used like this log<sub>2</sub>10 
+                sup tag can be used like this 1<sup>st</sup>, 2<sup>nd</sup> 
+                del tag is like line through over a text and looks <del>hello</del>
+                mark tag is used to highlight content enclosed inside it <mark> Hi there  </mark>
+            </pre>
+        </code>
+
+        <h3>Use of HTML blockquote tag</h3>
+        <p>Here is a quote from WWF's website:</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature.
+        The world's leading conservation organization,
+        WWF works in 100 countries and is supported by
+        1.2 million members in the United States and
+        close to 5 million globally.
+        </blockquote>
+
+        <p>How to put specific text into double quotes</p>
+        <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+        <p>Use of cite tag</p>
+        <img src="" alt="space explorer">
+        <p> <cite>The Explorer</cite> by Ashwary </p>
+
+        <p>How to use bdo tag ?</p>
+        <p>The text will be written from right to left</p>
+        <bdo dir="rtl">This text will be written from right to left</bdo>
+
+        <h3>HTML Comments</h3>
+
+        <p> &lt;!-- This is how we add single line comment in html --&gt; </p>
+
+        <p> &lt;!-- This is the way we add multiple <br>  line comment in html --&gt; </p>
+
+        <h3>Colors in html</h3>
+
+        <h5>by color name</h5>
+        <p style="color:red;">Check out colors by name</p>
+
+        <h5>rgb</h5>
+        <!-- inline css --></p>
+        <p style="color:rgb(255,102,255)">Check out rgb colors</p>
+
+        <h5>rgba</h5>
+        <p style="color:rgb(150,255,65,0.9)">Check out rgba colors</p>
+
+        <h5>hex code </h5>
+        <p style="color:#a1f21c">Check out hex code colors</p>
+
+        <h5>hsl</h5>
+        <p style="color:hsl(255,102,255)">Check out hsl colors</p>
+        
+        <h3>Use of target tag on Anchor tag</h3>
+        <a href="http://www.google.com" target="_self">Use of target tag with value self</a> <br>
+        <a href="http://www.google.com" target="_blank">Use of target tag with value black</a> <br> 
+        <a href="http://www.google.com" target="_parent">Use of target tag with value parent</a> <br>
+        <a href="http://www.google.com" target="_top">Use of target tag with value top</a> <br>
+
+        <h3>Bookmark in html</h3>
+
+        <a href="#html_headings">Click to go to html headings</a>
+        <div style="height:300px;width:500px;background-repeat:no-repeat;background-size:contain;background-image:url(https://images.unsplash.com/photo-1628026553106-7f5dedc5260c?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)">
+            
+        </div>
+    </body>
+</html>
