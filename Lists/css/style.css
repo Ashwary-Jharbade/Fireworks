@@ -1,0 +1,11 @@
+.no-bullet{
+    list-style: none;
+}
+
+.horizontal-list{
+    display: flex;
+}
+
+.horizontal-list li{
+    margin: 20px;
+}

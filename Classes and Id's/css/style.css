@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.box-items{
+    height: 250px;
+    width: 250px;
+    border: 1px solid;
+    margin:20px 0;
+}
+
+.box-primary{
+    background-color: blue;
+    border-color: blue;
+}
+
+#box_two{
+    background-color: blanchedalmond;
+}
+
+.box-secondary{
+    background-color: grey;
+    border-color: grey;
+}
+
+.box-info{
+    background-color: cyan;
+    border-color: cyan;
+}
+
+.box-danger{
+    background-color: red;
+    border-color: red;
+}
