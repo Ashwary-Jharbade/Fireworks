@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Full Screen</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <iframe id="frame" allowfullscreen="true" src="index.html"></iframe>
+    <button type="button" onclick="func()">Click</button>
+  </body>
+  <script>
+    function func() {
+      let obj = document.getElementById("frame");
+      obj.requestFullscreen();
+    }
+  </script>
+</html>

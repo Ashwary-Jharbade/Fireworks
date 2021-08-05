@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandbox - Allow top navigation</title>
+  </head>
+  <body>
+    <iframe
+      loading="lazy"
+      id="myframe"
+      sandbox="allow-scripts allow-top-navigation"
+      height="695px"
+      width="100%"
+    ></iframe>
+
+    <script>
+      var url = "http://wedesignthemes.com/themes/redirect.php?theme=wedding",
+        frame = document.getElementById("myframe"),
+        listener;
+      listener = window.addEventListener("beforeunload", function (e) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        // The iframe tried to bust out!
+        window.removeEventListener("beforeunload", listener);
+        return (
+          "This is unavoidable, you cannot shortcut a " +
+          "navigation attempt without prompting the user"
+        );
+      });
+      frame.src = url;
+    </script>
+  </body>
+</html>

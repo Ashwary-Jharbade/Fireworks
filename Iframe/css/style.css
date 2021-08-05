@@ -1,0 +1,15 @@
+.box iframe{
+    width: 100%;
+    height:695px;
+    border: none;
+}
+
+a{
+    background-color: coral;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
