@@ -10,26 +10,10 @@
     <iframe
       loading="lazy"
       id="myframe"
-      sandbox="allow-scripts allow-top-navigation"
+      sandbox="allow-same-origin allow-top-navigation allow-scripts"
       height="695px"
       width="100%"
+      src="./srcFiles/topNavigation.html"
     ></iframe>
-
-    <script>
-      var url = "http://wedesignthemes.com/themes/redirect.php?theme=wedding",
-        frame = document.getElementById("myframe"),
-        listener;
-      listener = window.addEventListener("beforeunload", function (e) {
-        e.preventDefault();
-        e.stopImmediatePropagation();
-        // The iframe tried to bust out!
-        window.removeEventListener("beforeunload", listener);
-        return (
-          "This is unavoidable, you cannot shortcut a " +
-          "navigation attempt without prompting the user"
-        );
-      });
-      frame.src = url;
-    </script>
   </body>
 </html>
