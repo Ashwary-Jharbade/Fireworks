@@ -1,0 +1,43 @@
+canvas {
+  border: 1px solid black;
+  background-color: black;
+}
+
+canvas:hover {
+  box-shadow: 1px 1px 5px 1px rgba(66, 134, 244, 0.377);
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.color-box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+
+.fill-black {
+  background-color: black;
+}
+
+.fill-red {
+  background-color: red;
+}
+
+.fill-coral {
+  background-color: coral;
+}
+
+.fill-white {
+  background-color: white;
+}
+
+.fill-pink {
+  background-color: pink;
+}
+
+.fill-purple {
+  background-color: purple;
+}

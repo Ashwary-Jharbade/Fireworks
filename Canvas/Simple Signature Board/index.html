@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <canvas
+      id="canva"
+      width="800"
+      height="400"
+      onclick="setCoor(event)"
+      onmousemove="func(event)"
+    ></canvas>
+    <p>Click mouse left button to start and stop</p>
+    <div class="flex">
+      <div class="color-box fill-red" onclick="changeColor('red')"></div>
+      <div class="color-box fill-coral" onclick="changeColor('coral')"></div>
+      <div class="color-box fill-white" onclick="changeColor('white')"></div>
+      <div class="color-box fill-pink" onclick="changeColor('pink')"></div>
+      <div class="color-box fill-purple" onclick="changeColor('purple')"></div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="svg-container">
+      <div class="svg-wrapper">
+        <svg width="500" height="500">
+            <!-- mouth color gradient -->
+            <defs>
+              <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop
+                  offset="0%"
+                  style="stop-color: rgb(247, 77, 47); stop-opacity: 1"
+                />
+                <stop
+                  offset="100%"
+                  style="stop-color: rgb(236, 115, 115); stop-opacity: 1"
+                />
+              </linearGradient>
+            </defs>
+            <!-- Left Ear 1 outline -->
+            <circle
+              cx="100"
+              cy="150"
+              r="50"
+              stroke-width="0"
+              fill="#8c6239"
+            ></circle>
+            <!-- Left Inner ear 1 outline -->
+            <circle
+              cx="100"
+              cy="150"
+              r="20"
+              stroke-width="0"
+              fill="#42210a"
+            ></circle>
+            <!-- Right Ear 2 outline -->
+            <circle
+              cx="300"
+              cy="150"
+              r="50"
+              stroke-width="0"
+              fill="#8c6239"
+            ></circle>
+            <!-- Right Inner ear 2 outline -->
+            <circle
+              cx="300"
+              cy="150"
+              r="20"
+              stroke-width="0"
+              fill="#42210a"
+            ></circle>
+    
+            <!-- Face outline -->
+            <circle
+              cx="200"
+              cy="200"
+              r="100"
+              stroke-width="0"
+              fill="#8c6239"
+            ></circle>
+    
+            <!-- Left Eye -->
+            <circle cx="160" cy="150" r="10" stroke-width="0" fill="#000"></circle>
+    
+            <!-- Right Eye -->
+            <circle cx="235" cy="150" r="10" stroke-width="0" fill="#000"></circle>
+    
+            <!-- Mouth outline -->
+            <circle
+              cx="200"
+              cy="240"
+              r="50"
+              stroke-width="0"
+              fill="#c69c6d"
+            ></circle>
+    
+            <!-- Nose  -->
+            <ellipse cx="200" cy="195" rx="20" ry="10" fill="#000" />
+    
+            <!-- Mouth -->
+            <ellipse cx="200" cy="255" rx="30" ry="5" fill="url(#grad)" />
+          </svg>
+      </div>
+    </div>
+  </body>
+</html>
