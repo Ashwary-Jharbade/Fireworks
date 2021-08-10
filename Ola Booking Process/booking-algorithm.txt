@@ -20,6 +20,6 @@ step 2.  User clicks on the "allow receiving ride protocol" button
 step 3.  User appliation gets sync up with one of the requested ride protocol.
 step 4.  User get the necessary ride info, fare info, user info and prompt for entering otp to start ride.
         step 4.1.  User denies the requested ride protocol.User go back to step no. 2
-        step 4.2.  Customer cancels the boking. User go back to step no. 2
+        step 4.2.  Customer cancels the booking. User go back to step no. 2
 step 5.  User enters ride otp and start the ride from pickup point till destination point.
 step 6.  User drops the customer, accept payment and click on "ride complete" button. 
