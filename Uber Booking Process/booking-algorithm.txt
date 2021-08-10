@@ -1,0 +1,25 @@
+### Customer Side
+
+step 1.  User launch Uber's customer application
+step 2.  User sets desitnation and start point or vice-verse
+step 3.  User click on "Search Ride" button
+step 4.  User selects the preference based on (ride type, vehical type, fare)
+step 5.  User clicks the "book ride" button and proceed with online or on destination payemnt.
+step 6.  The Uber application generates a protcol to the near by cab driver devices.
+        step 6.1.  Protcol got missed by the cab drivers. User go back to step no. 5 
+        step 6.2   The protcol received by a cab driver.User go to next step.
+step 7.  User gets the required ride details, ride tracking and otp for ride.
+        step 7.1.  Cab driver denies the requested user protocol. User go back to step no. 5
+        step 7.2.  User cancels the ride booking. User go back to step no. 5
+        step 7.3.  User shares the otp with cab driver.
+
+### Driver Side
+
+step 1.  User launch Uber's driver application
+step 2.  User clicks on the "allow receiving ride protocol" button
+step 3.  User appliation gets sync up with one of the requested ride protocol.
+step 4.  User get the necessary ride info, fare info, user info and prompt for entering otp to start ride.
+        step 4.1.  User denies the requested ride protocol.User go back to step no. 2
+        step 4.2.  Customer cancels the boking. User go back to step no. 2
+step 5.  User enters ride otp and start the ride from pickup point till destination point.
+step 6.  User drops the customer, accept payment and click on "ride complete" button. 
